@@ -1,9 +1,9 @@
 {
-  "name": "𝗜𝗫𝗔𝗟𝗟-Userbot",
-  "description": "-𝗕𝗬 @jPipis on telegram-",
-  "logo": "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg",
-  "keywords": ["telegram", "userbot", "ixall-Userbot", "modular", "python"],
-  "repository": "https://github.com/ixally/Kazu-Userbot",
+  "name": "𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+  "description": "-𝗕𝗬 @marknost on telegram-",
+  "logo": "https://graph.org/file/1d800bed1ba868dafe081-10376ed3f68f7447d1.jpg",
+  "keywords": ["telegram", "userbot", "vortax-Userbot", "modular", "python"],
+  "repository": "https://github.com/vortax30/Vortex-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
