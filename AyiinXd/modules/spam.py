@@ -398,26 +398,25 @@ async def list_fwspam(event):
     await event.edit(text)
 
     
-        "spam": f"**Plugin : **`spam`\
-        \n\n  »  **Perintah :** `{cmd}spam` <jumlah spam> <text>\
-        \n  »  **Kegunaan : **Membanjiri teks dalam obrolan!!\
-        \n\n  »  **Perintah :** `{cmd}cspam` <text>\
-        \n  »  **Kegunaan : **Spam surat teks dengan huruf.\
-        \n\n  »  **Perintah :** `{cmd}sspam` <reply sticker>\
-        \n  »  **Kegunaan : **Spam sticker dari Seluruh isi Sticker Pack.\
-        \n\n  »  **Perintah :** `{cmd}wspam` <text>\
-        \n  »  **Kegunaan : **Spam kata teks demi kata.\
-        \n\n  »  **Perintah :** `{cmd}picspam` <jumlah spam> <link image/gif>\
-        \n  »  **Kegunaan : **Spam Foto Seolah-olah spam teks tidak cukup !!\
-        \n\n  »  **Perintah :** `{cmd}delayspam` <detik> <jumlah spam> <text>\
-        \n  »  **Kegunaan : **Spam surat teks dengan huruf.\
-        \n\n  •  **NOTE : Spam dengan Risiko Anda sendiri**\
-        \n\n  »  **Perintah :** `{cmd}stopdspam`\
-        \n  »  **Kegunaan : **Memberhentikan teks sebar dalam satu gc.\
-        \n\n  »  **Perintah :** `{cmd}listdspam`\
-        \n  »  **Kegunaan : **Melihat daftar sebar list yang aktif.\
-        \n\n  »  Perintah : {cmd}dspamfw <detik> <jumlah spam> <link yang ingin di forward>\
-        \n  »  Kegunaan : spam forward dari channel.\
-    "
-    }
-)
+        CMD_HELP.update({
+    "spam": f"**Plugin : **`spam`\
+\n\n  »  **Perintah :** `{cmd}spam` <jumlah spam> <text>\
+\n  »  **Kegunaan : **Membanjiri teks dalam obrolan!!\
+\n\n  »  **Perintah :** `{cmd}cspam` <text>\
+\n  »  **Kegunaan : **Spam surat teks dengan huruf.\
+\n\n  »  **Perintah :** `{cmd}sspam` <reply sticker>\
+\n  »  **Kegunaan : **Spam sticker dari Seluruh isi Sticker Pack.\
+\n\n  »  **Perintah :** `{cmd}wspam` <text>\
+\n  »  **Kegunaan : **Spam kata teks demi kata.\
+\n\n  »  **Perintah :** `{cmd}picspam` <jumlah spam> <link image/gif>\
+\n  »  **Kegunaan : **Spam Foto Seolah-olah spam teks tidak cukup !!\
+\n\n  »  **Perintah :** `{cmd}delayspam` <detik> <jumlah spam> <text>\
+\n  »  **Kegunaan : **Spam surat teks dengan huruf.\
+\n\n  •  **NOTE : Spam dengan Risiko Anda sendiri**\
+\n\n  »  **Perintah :** `{cmd}stopdspam`\
+\n  »  **Kegunaan : **Memberhentikan teks sebar dalam satu gc.\
+\n\n  »  **Perintah :** `{cmd}listdspam`\
+\n  »  **Kegunaan : **Melihat daftar sebar list yang aktif.\
+\n\n  »  Perintah : {cmd}dspamfw <detik> <jumlah spam> <link yang ingin di forward>\
+\n  »  Kegunaan : spam forward dari channel."
+})
