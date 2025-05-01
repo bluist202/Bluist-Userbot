@@ -92,7 +92,7 @@ async def ajg():
     if not bot.is_connected():
         await bot.connect()
     
-    await bot(Get("marknost"))
+    try:
         await bot(Get("marknost"))
         await bot(Get("taachat"))
         await bot(Get("resshunter"))
