@@ -1,9 +1,9 @@
 {
-  "name": "𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
-  "description": "-𝗕𝗬 @marknost on telegram-",
-  "logo": "https://graph.org/file/1d800bed1ba868dafe081-10376ed3f68f7447d1.jpg",
+  "name": "𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝘁",
+  "description": "-𝗕𝗬 @bonekaaaG on telegram-",
+  "logo": "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg",
   "keywords": ["telegram", "userbot", "vortax-Userbot", "modular", "python"],
-  "repository": "https://github.com/vortax30/Vortex-Userbot",
+  "repository": "https://github.com/clawsy202/Clawsy-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -15,7 +15,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di @strgen_bot",
+      "description": "Dapatkan String Session di @Stringsesi_bot",
       "required": true
     },
     "HEROKU_APP_NAME": {
