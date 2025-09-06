@@ -54,7 +54,7 @@ async def _(ping):
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     sleep(3)
-    await ping.reply(
+    await ping.edit(
         f"私 **ᴘɪɴɢ :** `%sms`\n"
         f"さ **ᴜᴘᴛɪᴍᴇ :** `{uptime}` \n"
         f"ふ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})" % (duration)
@@ -116,7 +116,7 @@ async def _(pong):
 # .keping & kping Coded by Koala
 
 
-@ayiin_cmd(pattern=r"vort$")
+@ayiin_cmd(pattern=r"claw$")
 async def _(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
@@ -138,14 +138,14 @@ async def _(pong):
     await kping.edit("8===🥹D")
     await kping.edit("8===😬D🔥")
     await kping.edit("8====D🔥🔥")
-    await kping.edit("**VORTAX**")
-    await kping.edit("**DISINI VORTAX GANTENG KECE BADAI SLEBEW .....**")
+    await kping.edit("**𝗖𝗹𝗮𝘄𝘀𝘆**")
+    await kping.edit("**DISINI 𝗖𝗹𝗮𝘄𝘀𝘆 KECE BADAI SLEBEW .....**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await kping.edit("☠️")
     sleep(3)
     await kping.edit(
-        f"**VORTAX ROR!! 💀**\n𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴 : %sms\n𝗨𝗽𝘁𝗶𝗺𝗲 : {uptime}🕛" % (duration)
+        f"**𝗖𝗹𝗮𝘄𝘀𝘆 ROR!! 💀**\n𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴 : %sms\n𝗨𝗽𝘁𝗶𝗺𝗲 : {uptime}🕛" % (duration)
     )
 
 
@@ -195,7 +195,7 @@ async def _(pong):
 CMD_HELP.update(
     {
         "ping": f"**Plugin : **`ping`\
-        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}lping` ; `{cmd}xping` ; `{cmd}vort`\
+        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}lping` ; `{cmd}xping` ; `{cmd}claw`\
         \n  »  **Kegunaan : **Untuk menunjukkan ping userbot.\
         \n\n  »  **Perintah :** `{cmd}pong`\
         \n  »  **Kegunaan : **Sama seperti perintah ping\
