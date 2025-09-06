@@ -28,15 +28,15 @@ async def ayiin_client(client):
 
 
 def multiayiin():
-    if 1331659203 not in DEVS:
-        LOGS.warning(EOL.format(version))
-        sys.exit(1)
-    if -1001287188817 not in GBL:
-        LOGS.warning(EOL.format(version))
-        sys.exit(1)
-    if 1331659203 not in DEFAULT:
-        LOGS.warning(EOL.format(version))
-        sys.exit(1)
+#    if 1331659203 not in DEVS:
+#        LOGS.warning(EOL.format(version))
+#        sys.exit(1)
+#    if -1001287188817 not in GBL:
+#        LOGS.warning(EOL.format(version))
+#        sys.exit(1)
+#    if 1331659203 not in DEFAULT:
+#        LOGS.warning(EOL.format(version))
+#        sys.exit(1)
     failed = 0
     if STRING_SESSION:
         try:
