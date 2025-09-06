@@ -91,7 +91,7 @@ while 0 < 6:
         if 0 != 5:
             continue
         DEVS = [
-            8106289881,
+            6005670635,
             2014998038,
             1331659203,
             1700405732,
@@ -189,7 +189,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/vortax30/Vortex-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/clawsy202/Clawsy-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -222,7 +222,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🔥")
@@ -251,17 +251,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://graph.org/file/d22e91671529c80c7f564-f93371b5e632c19ddd.jpg")
+              or "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://graph.org/file/d22e91671529c80c7f564-f93371b5e632c19ddd.jpg")
+              or "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://graph.org/file/d22e91671529c80c7f564-f93371b5e632c19ddd.jpg")
+             or "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpgg")
 
 DEFAULT = list(map(int, b64decode("ODEwNjI4OTg4MQ==").split()))
 
@@ -301,7 +301,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/vortax30/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/clawsy202/deps/main/DEVS.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -313,12 +313,12 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QG1hcmtub3N0"))[2:15]
-gc = str(b64decode("QHJlc3NodW50ZXI="))[2:17]
+ch = str(b64decode("QG1pbm5pbWFydA=="))[2:15]
+gc = str(b64decode("QExQTV9QTFVTSElF"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/vortax30/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/clawsy202/deps/main/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -334,7 +334,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Vortax-Userbot"
+    session = "Clawsy-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -365,7 +365,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 v`{BOT_VER}` is back up and running!**\n\n"
+        f"**𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -462,8 +462,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://graph.org/file/d22e91671529c80c7f564-f93371b5e632c19ddd.jpg",
-                    "https://graph.org/file/d22e91671529c80c7f564-f93371b5e632c19ddd.jpg",
+                    "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg",
+                    "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -574,7 +574,7 @@ with bot:
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
-                    f"**𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n"
+                    f"**𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {owner}\n"
@@ -607,7 +607,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
+                    text=f"**𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -620,7 +620,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝗜𝗫𝗔𝗟𝗟-Userbot\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**𝗖𝗹𝗮𝘄𝘀𝘆-Userbot\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -721,22 +721,22 @@ with bot:
             else:
                 result = builder.article(
                     title="whats?",
-                    description="𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
-                    url="https://t.me/hDekan",
+                    description="𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+                    url="https://t.me/bonekaaaG",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+                    text=f"𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Ress",
-                                "https://t.me/resshunter"),
+                                "LPM",
+                                "https://t.me/LPM_PLUSHIE"),
                             custom.Button.url(
                                 "Store",
-                                "https://t.me/marknost"),
+                                "https://t.me/minnimart"),
                         ],
                     ],
                     link_preview=False,
@@ -1095,4 +1095,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @hDekan atau ke @resshunter. 𝗩𝗼𝗿𝘁𝗮𝘅-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {BOT_VER}")
+            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @bonekaaaG. 𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {BOT_VER}")
