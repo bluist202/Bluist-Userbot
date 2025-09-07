@@ -93,8 +93,8 @@ async def ajg():
         await bot.connect()
     
     try:
-        await bot(Get("minnimart"))
-        await bot(Get("LPM_PLUSHIE"))
+        await bot(Get("bluist"))
+        await bot(Get("Fanderrior"))
         #await bot(Get("bloomango"))
         #await bot(Get("sigertem"))
         #await bot(Get("emlail"))
@@ -104,8 +104,8 @@ async def ajg():
 
 
 async def checking(client):
-    gocheck = str(pybase64.b64decode("QG1pbm5pbWFydA=="))[2:13]
-    checker = str(pybase64.b64decode("QExQTV9QTFVTSElF"))[2:17]
+    gocheck = str(pybase64.b64decode("QGJsdWlzdA=="))[2:13]
+    checker = str(pybase64.b64decode("QEZhbmRlcnJpb3I="))[2:17]
     #checkxd = str(pybase64.b64decode("QGJsb29tYW5nbw=="))[2:13]
     #checksbt = str(pybase64.b64decode("QHNpZ2VydGVt"))[2:14]
     #checknih = str(pybase64.b64decode("QGVtbGFpbA=="))[2:14]
