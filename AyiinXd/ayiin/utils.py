@@ -54,7 +54,7 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="𝗖𝗹𝗮𝘄𝘀𝘆.-𝗟𝗼𝗴𝘀.",
+                title="𝗕𝗹𝘂𝗶𝘀𝘁.-𝗟𝗼𝗴𝘀.",
                 about="bot dan group yang sudah dibuat tolong untuk tidak menghapusnya.",
                 megagroup=True,
             ),
@@ -73,7 +73,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg", "photoyins.jpg"
+            "https://graph.org/file/24e4273e28a6f5cfedf42-c0b42871f0b339ad18.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -102,7 +102,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"Clawsy{(str(who.id))[5:]}bot"
+        username = f"Bluist{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg", 
-              "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg"
+              "https://graph.org/file/24e4273e28a6f5cfedf42-c0b42871f0b339ad18.jpg", 
+              "https://graph.org/file/24e4273e28a6f5cfedf42-c0b42871f0b339ad18.jpg"
           ]
     )
     await bot.send_message(bf, username)
@@ -141,7 +141,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"Clawsy{str(who.id)[6:]}{ran}bot"
+        username = f"Bluist{str(who.id)[6:]}{ran}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -180,7 +180,7 @@ async def autobot():
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**currently restarting userbot, if there are any problems please contact @bonekaaaG!**",
+                "**currently restarting userbot, if there are any problems please contact @meAnteri!**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -224,7 +224,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**currently restarting userbot, if there are any problems please contact @bonekaaaG!**",
+            "**currently restarting userbot, if there are any problems please contact @meAnteri!**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
