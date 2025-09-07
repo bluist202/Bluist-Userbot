@@ -1,9 +1,9 @@
 {
-  "name": "𝗖𝗹𝗮𝘄𝘀𝘆-𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝘁",
-  "description": "-𝗕𝗬 @bonekaaaG on telegram-",
-  "logo": "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg",
-  "keywords": ["telegram", "userbot", "vortax-Userbot", "modular", "python"],
-  "repository": "https://github.com/clawsy202/Clawsy-Userbot",
+  "name": "𝗕𝗹𝘂𝗶𝘀𝘁-𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝘁",
+  "description": "-𝗕𝗬 @meAnteri on telegram-",
+  "logo": "https://graph.org/file/24e4273e28a6f5cfedf42-c0b42871f0b339ad18.jpg",
+  "keywords": ["telegram", "userbot", "bluist-Userbot", "modular", "python"],
+  "repository": "https://github.com/bluist202/Clawsy-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
